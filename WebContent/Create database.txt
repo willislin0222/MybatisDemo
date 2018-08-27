@@ -1,0 +1,35 @@
+﻿ CREATE TABLE Person(
+    id INT NOT NULL AUTO_INCREMENT,
+    name VARCHAR(100) NOT NULL,
+    age INT NOT NULL,
+    PRIMARY KEY (id)
+)ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+INSERT INTO Person 
+(name, age)
+VALUES
+("mybatis測試1",25);
+
+INSERT INTO Person 
+(name, age)
+VALUES
+("mybatis測試2",35);
+
+INSERT INTO Person 
+(name, age)
+VALUES
+("mybatis測試3",15);
+
+INSERT INTO Person 
+(name, age)
+VALUES
+("mybatis測試4",18);
+
+INSERT INTO Person 
+(name, age)
+VALUES
+("mybatis測試5",50);
+
+https://blog.csdn.net/bear_wr/article/details/52386257
+https://www.jianshu.com/p/e3ac7e1d4658
+http://bijian1013.iteye.com/blog/2318096
